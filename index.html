@@ -3,12 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title> pohwanhan </title>
   <link rel="stylesheet" href="stylesheet.css">
+  <script src="main.js"></script>
 </head>
 
 <body>
-
+  <div id="app" />
+  <script>
+    var app = Elm.Main.init({
+      node: document.getElementById('app')
+    });
+  </script>
 </body>
 
 </html>
